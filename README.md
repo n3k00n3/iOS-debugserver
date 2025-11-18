@@ -34,7 +34,7 @@ scp -P 2222 debugserver root@localhost:/private/var
 
 #### Connect to Iphone
 ```
-ssh root@localhost.com
+ssh root@localhost -p2222
 ```
 
 
