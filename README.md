@@ -13,7 +13,7 @@ hdiutil mount /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.plat
 ```
 
 
-### Overwrite debugserver entitlements
+### Copy the debuserver to home folder (You decide the path)
 
 ```
 cp /Volumes/DeveloperDiskImage/usr/bin/debugserver ~/
@@ -46,7 +46,7 @@ cd /private/var
 vi entitlement.xml
 ```
 
-copy this file to entitlment.xml
+**copy this file to entitlment.xml**
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
