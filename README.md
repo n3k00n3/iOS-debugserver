@@ -115,7 +115,7 @@ lldb
 #### Inside lldb
 
 ```
-process connect connect:0.0.0.0:7777
+process connect connect://0.0.0.0:7777
 ```
 
 
